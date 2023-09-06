@@ -3,4 +3,4 @@ import {
     positionInfoType,
     screenShotType,
     toolbarType
-  } from "@/lib/typpe/ComponentType";
+  } from "@/lib/type/ComponentType";
