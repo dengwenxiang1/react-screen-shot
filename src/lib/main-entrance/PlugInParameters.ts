@@ -131,9 +131,7 @@ export default class PlugInParameters{
     return writeBase64;
   }
 
-  public setSaveCallback(saveFn:(code:number,msg:string)=>{
-    
-  }){
+  public setSaveCallback(saveFn:(code:number,msg:string)=> void){
     saveCallback=saveFn;
   }
   public getSaveCallback(){
