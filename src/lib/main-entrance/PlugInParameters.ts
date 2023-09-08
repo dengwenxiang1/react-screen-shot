@@ -1,5 +1,3 @@
-import { endianness } from "os";
-
 let enableWebRtc = true;
 //electron环境下使用webrtc需要自己传入屏幕流
 let screenFlow:MediaStream | null =null;
