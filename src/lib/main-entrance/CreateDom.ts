@@ -4,3 +4,4 @@ import {
     screenShotType,
     toolbarType
   } from "@/lib/type/ComponentType";
+  import {toolClickEvent} from "@/lib/split-methods/ToolClickEvent"

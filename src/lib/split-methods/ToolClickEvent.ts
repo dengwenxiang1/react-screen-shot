@@ -6,4 +6,14 @@
  */
 import {setSelectedClassName} from "@/lib/commont-methods/SetSelectedClassName"
 import { calculateOptionIcoPosition } from "@/lib/split-methods/CalculateOptionIcoPosition";
-import { setBrushSize } from "@/lib/commont-methods/SetBrushSize";
+import InitData from "@/lib/main-entrance/InitData";
+import { getCanvasImgData} from  "@/lib/commont-methods/GetCanvasImgData"
+export function toolClickEvent(
+    toolName: string,
+    index:number,
+    mouseEvent:any,
+    completeCallback:Function | undefined,
+    closeCallback:Function | undefined
+){
+
+}
