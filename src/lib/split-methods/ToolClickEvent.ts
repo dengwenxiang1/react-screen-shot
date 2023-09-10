@@ -11,6 +11,7 @@ import { getCanvasImgData} from  "@/lib/commont-methods/GetCanvasImgData";
 import { takeOutHistory } from "@/lib/commont-methods/TakeOutHistory";
 import {drawCutOutBox} from '@/lib/split-methods/DrawCutOutBox';
 import { drawText } from '@/lib/split-methods/DrawText';
+import {addHistory} from '@/lib/split-methods/AddHistoryData';
 
 export function toolClickEvent(
     toolName: string,
