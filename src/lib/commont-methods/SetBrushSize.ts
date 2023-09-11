@@ -11,5 +11,21 @@ export function setBrushSize (
     index:number,
     mouseEvent:MouseEvent
 ) {
-
+  const data =new InitData();
+  // 为当前点击项添加选中的class名
+  setSelectedClassName(mouseEvent,index,true);
+  let sizeNum =2;
+  switch(size){
+    case "small":
+        sizeNum =2;
+        break;
+    case "medium":
+        sizeNum =5;
+        break;
+    case "big":
+        sizeNum =10;
+        break;
+  }
+  data.setPenSzie(sizeNum);
+  return sizeNum;
 }
