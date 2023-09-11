@@ -5,3 +5,6 @@ import {
     toolbarType
   } from "@/lib/type/ComponentType";
   import {toolClickEvent} from "@/lib/split-methods/ToolClickEvent"
+  import { setBrushSize } from "@/lib/commont-methods/SetBrushSize";
+  import {selectColor} from "@/lib/commont-methods/SelectColor";
+  import {getColor } from "@/lib/commont-methods/GetColor"
