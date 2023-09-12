@@ -24,3 +24,17 @@ export function drawPencil(
    // 绘制结束
    context.restore();
 }
+
+/**
+ * 画笔初始化
+ */
+export function initPencil(
+    context:CanvasRenderingContext2D,
+    mouseX:number,
+    mouseY:number
+   ){
+     // 开始||清空一条路径
+     context.beginPath();
+     // 移动画笔位置
+     context.moveTo(mouseX,mouseY);
+   }
