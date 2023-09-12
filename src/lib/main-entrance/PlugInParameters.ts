@@ -5,7 +5,7 @@ let screenFlow:MediaStream | null =null;
 let initStatus = false;
 
 //画布宽高
-let canvsWidth = 0;
+let canvasWidth = 0;
 let canvasHeight = 0;
 
 // 展示截图图片至容器
@@ -21,7 +21,7 @@ export default class PlugInParameters{
   constructor(){
     if(initStatus){
       enableWebRtc = true;
-      canvsWidth = 0;
+      canvasWidth = 0;
       canvasHeight= 0;
       cutBoxColor ="#2CABFF"
       showScreenDate=false;
@@ -81,14 +81,14 @@ export default class PlugInParameters{
   // 获取画布宽高
   public getCnavasSzie(){
     return{
-      canvsWidth,
+      canvasWidth,
       canvasHeight
     };
   }
 
   //设置画布宽高
   public setCanvasSzie(width:number,height:number){
-    canvsWidth =width;
+    canvasWidth =width;
     canvasHeight=height;
   }
 
