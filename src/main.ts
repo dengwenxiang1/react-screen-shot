@@ -14,3 +14,4 @@ import {
 } from "@/lib/type/ComponentType"
 import {drawMasking} from "@/lib/split-methods/DrawMasking"
 import {fixedData ,nonNegativeData} from "@/lib/commont-methods/FixedData"
+import {drawPencil ,initPencil} from "@/lib/split-methods/DrawPencil"
