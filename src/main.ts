@@ -1,6 +1,6 @@
 import CreateDom from "@/lib/main-entrance/CreateDom";
 // 导入截图所需样式
-import "@/assets/scss/screen-shot.scss"
+import "@/assets/scss/screen-shot.scss";
 import InitData from "@/lib/main-entrance/InitData";
 import {
     crcEventType,
@@ -11,12 +11,14 @@ import {
     screenShotType,
     toolPositionValType,
     zoomCutOutBoxReturnType
-} from "@/lib/type/ComponentType"
-import {drawMasking} from "@/lib/split-methods/DrawMasking"
-import {fixedData ,nonNegativeData} from "@/lib/commont-methods/FixedData"
-import {drawPencil ,initPencil} from "@/lib/split-methods/DrawPencil"
-import {drawText} from "@/lib/split-methods/DrawText"
-import {drawRectangle} from "@/lib/split-methods/DrawRectangle"
-import {drawCircle} from "@/lib/split-methods/DrawCircle"
-import {DrawArrow} from "@/lib/split-methods/DrawArrow" 
-import {drawMosaic} from "@/lib/split-methods/DrawMosaic"
+} from "@/lib/type/ComponentType";
+import {drawMasking} from "@/lib/split-methods/DrawMasking";
+import {fixedData ,nonNegativeData} from "@/lib/commont-methods/FixedData";
+import {drawPencil ,initPencil} from "@/lib/split-methods/DrawPencil";
+import {drawText} from "@/lib/split-methods/DrawText";
+import {drawRectangle} from "@/lib/split-methods/DrawRectangle";
+import {drawCircle} from "@/lib/split-methods/DrawCircle";
+import {DrawArrow} from "@/lib/split-methods/DrawArrow"; 
+import {drawMosaic} from "@/lib/split-methods/DrawMosaic";
+import { drawCutOutBox } from "@/lib/split-methods/DrawCutOutBox";
+import { zoomCutOutBoxPosition } from "@/lib/split-methods/ZoomCutOutBoxPosition";
