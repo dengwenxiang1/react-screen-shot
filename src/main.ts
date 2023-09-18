@@ -26,4 +26,5 @@ import {saveBorderArrInfo} from "@/lib/commont-methods/SaveBorderArrInfo";
 import {calculateToolLocation} from "@/lib/split-methods/CalculateToolLocation"
 import html2canvas from "html2canvas";
 import PlugInParameters from "@/lib/main-entrance/PlugInParameters";
-import {getDrawBoundaryStatus} from "@/lib/split-methods/BoundaryJudgment"
+import {getDrawBoundaryStatus} from "@/lib/split-methods/BoundaryJudgment";
+import  KeyboardEventHandle from "@/lib/split-methods/KeyboardEventHandle";
