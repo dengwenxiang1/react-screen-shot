@@ -30,3 +30,6 @@ import {getDrawBoundaryStatus} from "@/lib/split-methods/BoundaryJudgment";
 import  KeyboardEventHandle from "@/lib/split-methods/KeyboardEventHandle";
 import {setPlugInParameters} from "@/lib/split-methods/SetPlugInParameters";
 import {drawCrossImg} from "@/lib/split-methods/drawCrossImg";
+import { getCanvas2dCtx } from "@/lib/commont-methods/CanvasPatch";
+import { updateContainerMouseStyle} from "@/lib/commont-methods/UpdateContainerMouseStyle"
+import { addHistory } from "@/lib/split-methods/AddHistoryData";
