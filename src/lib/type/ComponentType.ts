@@ -16,7 +16,7 @@ export type movePositionType={
 
 // 裁剪框位置参数
 export type positionInfoType={
-  statrX:number;
+  startX:number;
   startY:number;
   width:number;
   height:number;
