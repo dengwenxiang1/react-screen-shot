@@ -28,4 +28,5 @@ import html2canvas from "html2canvas";
 import PlugInParameters from "@/lib/main-entrance/PlugInParameters";
 import {getDrawBoundaryStatus} from "@/lib/split-methods/BoundaryJudgment";
 import  KeyboardEventHandle from "@/lib/split-methods/KeyboardEventHandle";
-import {setPlugInParameters} from "@/lib/split-methods/SetPlugInParameters"
+import {setPlugInParameters} from "@/lib/split-methods/SetPlugInParameters";
+import {drawCrossImg} from "@/lib/split-methods/drawCrossImg";
