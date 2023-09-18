@@ -23,3 +23,4 @@ import {drawMosaic} from "@/lib/split-methods/DrawMosaic";
 import { drawCutOutBox } from "@/lib/split-methods/DrawCutOutBox";
 import { zoomCutOutBoxPosition } from "@/lib/split-methods/ZoomCutOutBoxPosition";
 import {saveBorderArrInfo} from "@/lib/commont-methods/SaveBorderArrInfo";
+import {calculateToolLocation} from "@/lib/split-methods/CalculateToolLocation"
